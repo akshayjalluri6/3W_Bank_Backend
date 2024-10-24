@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes.js';
 import bankRoutes from './routes/bankRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
+import cors from "cors";
 
 dotenv.config();
 
